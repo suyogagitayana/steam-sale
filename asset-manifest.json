@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/suyogagitayana/steam-sale/static/css/main.cd9e6553.css",
-    "main.js": "/suyogagitayana/steam-sale/static/js/main.f43eba60.js",
-    "index.html": "/suyogagitayana/steam-sale/index.html",
-    "main.cd9e6553.css.map": "/suyogagitayana/steam-sale/static/css/main.cd9e6553.css.map",
-    "main.f43eba60.js.map": "/suyogagitayana/steam-sale/static/js/main.f43eba60.js.map"
+    "main.css": "/steam-sale/static/css/main.cd9e6553.css",
+    "main.js": "/steam-sale/static/js/main.f43eba60.js",
+    "index.html": "/steam-sale/index.html",
+    "main.cd9e6553.css.map": "/steam-sale/static/css/main.cd9e6553.css.map",
+    "main.f43eba60.js.map": "/steam-sale/static/js/main.f43eba60.js.map"
   },
   "entrypoints": [
     "static/css/main.cd9e6553.css",
