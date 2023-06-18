@@ -1,0 +1,95 @@
+body,
+#root {
+    background-color: #202020;
+    font-family: 'Poppins', 'sans-serif';
+    min-height: 100vh;
+}
+
+.border-1 {
+    border-width: 1px;
+}
+
+.bg-dark {
+    background-color: #242424;
+}
+
+.bg-green {
+    background-color: #4c7738;
+}
+
+.bg-yellow {
+    background-color: #faeec7;
+}
+
+.cl-yellow {
+    color: #ac8743;
+}
+
+.cl-green {
+    color: #bfff59;
+}
+
+.cl-blue {
+    color: #91bdff;
+}
+
+.cl-red {
+    color: #da6f6f;
+}
+
+@keyframes skeleton {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.skeleton {
+    --base-color: #ebebeb;
+    --highlight-color: #55555555;
+    --animation-duration: 1.5s;
+    --animation-direction: normal;
+    --pseudo-element-display: block;
+    /* Enable animation */
+
+
+
+    width: 100%;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    line-height: 1;
+
+    position: relative;
+    user-select: none;
+    overflow: hidden;
+    z-index: 1;
+    /* Necessary for overflow: hidden to work correctly in Safari */
+}
+
+.skeleton::after {
+    content: ' ';
+    display: var(--pseudo-element-display);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg,
+            transparent,
+            var(--highlight-color),
+            transparent);
+    transform: translateX(-100%);
+
+    animation-name: skeleton;
+    animation-direction: var(--animation-direction);
+    animation-duration: var(--animation-duration);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@media (prefers-reduced-motion) {
+    .skeleton {
+        --pseudo-element-display: none;
+        /* Disable animation */
+    }
+}

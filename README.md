@@ -1,0 +1,1 @@
+Single-paged site to check recent Steam deals
