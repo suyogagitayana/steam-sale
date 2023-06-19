@@ -92,7 +92,7 @@ const App = () => {
             return <div key={steamAppID} className='bg-dark flex p-2 gap-2 mb-2 border-1 border-gray-600 rounded-sm relative'>
                 <div className='flex items-center w-1/5'>
                     <a className='w-full bg-gray-500' href={`https://store.steampowered.com/app/${steamAppID}`} style={{height: '50.25px'}}>
-                        <img className='h-full' src={thumb} style={{objectFit: 'cover'}}/>
+                        <img className='w-full h-full' src={thumb} style={{objectFit: 'cover'}}/>
                     </a>
                 </div>
                 <div className='w-1/2 sm:w-3/5'>
@@ -103,7 +103,7 @@ const App = () => {
                 </div>
                 <div className='flex items-center justify-end w-1/5'>
                     {isOnSale === '1' && <div className='flex items-center justify-center bg-green cl-green w-1/2 py-1'>
-                        <p className='font-medium text-xs'>-{Math.round(savings)}%</p>
+                        <p className='font-medium text-xs sm:text-sm'>-{Math.round(savings)}%</p>
                     </div>}
                     <div className='flex flex-wrap items-center w-1/2 pl-3'>
                         <p className='w-full font-light text-gray-400 text-xs'>{isOnSale === '1' && <strike>${normalPrice}</strike>}</p>
