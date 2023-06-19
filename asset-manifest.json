@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/steam-sale/static/css/main.5bd67f5b.css",
-    "main.js": "/steam-sale/static/js/main.6a412c0f.js",
+    "main.css": "/steam-sale/static/css/main.589e08bd.css",
+    "main.js": "/steam-sale/static/js/main.644f1d26.js",
     "index.html": "/steam-sale/index.html",
-    "main.5bd67f5b.css.map": "/steam-sale/static/css/main.5bd67f5b.css.map",
-    "main.6a412c0f.js.map": "/steam-sale/static/js/main.6a412c0f.js.map"
+    "main.589e08bd.css.map": "/steam-sale/static/css/main.589e08bd.css.map",
+    "main.644f1d26.js.map": "/steam-sale/static/js/main.644f1d26.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bd67f5b.css",
-    "static/js/main.6a412c0f.js"
+    "static/css/main.589e08bd.css",
+    "static/js/main.644f1d26.js"
   ]
 }
